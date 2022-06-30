@@ -13,7 +13,6 @@ import java.util.List;;
 @RequestMapping("/contatos")
 public class UsuarioController{
     @Autowired
-
     private RepositorioUsuario repositorioUsuario;
 
      @GetMapping

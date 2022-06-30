@@ -9,10 +9,7 @@ import jakarta.persistence.Id;
 @Entity(name = "usuario")
 public class UsuarioModel {
 
-    @GeneratedValue(strategy = GenerationType.AUTO)
-
-    @Column(nullable = false , length = 10)
-    
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Id
     public Integer id;
 
